@@ -8,7 +8,7 @@ void DFS(int u)
     for(int i = 1;i <= mid;i++)
     {
         ans++;
-        DFS(i);
+            DFS(i);
     }
 }
 
