@@ -1,0 +1,44 @@
+{
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ -std=c++2b $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+  },
+  "cph.general.defaultLanguage": "cpp",
+  "cph.general.defaultLanguageTemplateFileLocation": "E:\\自己资料\\C++\\VSCode_C++_by_JackYue\\template.cpp",    // 这是你的模板文件路径
+  "cph.general.firstTime": false,
+  "cph.language.cpp.SubmissionCompiler": "GNU G++20 11.2.0 (64 bit, winlibs)",   // 使用 C++14 标准
+  "cph.language.cpp.Args": "-std=c++20 -O2",    // -O2
+  "C_Cpp_Runner.cCompilerPath": "gcc",
+  "C_Cpp_Runner.cppCompilerPath": "g++",
+  "C_Cpp_Runner.debuggerPath": "gdb",
+  "C_Cpp_Runner.cStandard": "",
+  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.msvcBatchPath": "",
+  "C_Cpp_Runner.useMsvc": false,
+  "C_Cpp_Runner.warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Wshadow",
+    "-Wformat=2",
+    "-Wconversion",
+    "-Wnull-dereference",
+    "-Wsign-conversion"
+  ],
+  "C_Cpp_Runner.enableWarnings": true,
+  "C_Cpp_Runner.warningsAsError": false,
+  "C_Cpp_Runner.compilerArgs": [],
+  "C_Cpp_Runner.linkerArgs": [],
+  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.includeSearch": [
+    "*",
+    "**/*"
+  ],
+  "C_Cpp_Runner.excludeSearch": [
+    "**/build",
+    "**/build/**",
+    "**/.*",
+    "**/.*/**",
+    "**/.vscode",
+    "**/.vscode/**"
+  ]
+}
