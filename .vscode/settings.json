@@ -132,6 +132,7 @@
     "valarray": "cpp",
     "variant": "cpp",
     "ios": "cpp",
+    "C_Cpp.formatting": "clangFormat",
     "cpp-format.executable": "/path/to/clang-format",
     "cpp-format.executable.windows": "/path/to/clang-format",
     "cpp-format.executable.linux": "/path/to/clang-format",
