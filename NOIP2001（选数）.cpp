@@ -8,7 +8,11 @@ void DFS(int u)
     for(int i = 1;i <= mid;i++)
     {
         ans++;
+        if(!state[i])
+        {
+            state[i] = true;
             DFS(i);
+        }
     }
 }
 

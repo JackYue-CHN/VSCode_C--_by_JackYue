@@ -1,21 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
-int a[5],b[5]= {1,0,0,0,0},ans;
+int a[5], b[5] = {1, 0, 0, 0, 0}, ans;
 int main()
 {
-  while(b[0] <= 9)
+  while (b[0] <= 9)
   {
-    for(int i = 0; i <= 4; i++)
+    for (int i = 0; i <= 4; i++)
       a[i] = b[i];
-    while(b[1] <= 9)
+    while (b[1] <= 9)
     {
-      while(b[2] <= 9)
+      while (b[2] <= 9)
       {
-        while(b[3] <= 9)
+        while (b[3] <= 9)
         {
-          while(b[4] <= 9)
+          while (b[4] <= 9)
           {
-            if(b[1] == b[5] && b[2] == b[4])
+            if (b[1] == b[5] && b[2] == b[4])
               ans++;
             b[4]++;
           }
@@ -34,4 +34,3 @@ int main()
   cout << ans << endl;
   return 0;
 }
-

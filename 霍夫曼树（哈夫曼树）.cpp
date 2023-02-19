@@ -22,7 +22,6 @@ void HuffmanTree(int n)
 		HuffNode[i].lchild = -1;
 		HuffNode[i].rchild = -1;
 	}
-	cout << "输入信息和权值：\n";
 	for(int i = 0;i < n;i++)
 		cin >> HuffNode[i].value >> HuffNode[i].weight;
 	double m1,m2;
